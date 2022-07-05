@@ -22,7 +22,7 @@
   <!-- We resume the logic in empty_world.launch -->
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-  <!--<arg name="world_name" value="$(find PF1)/worlds/clearpath_playpen.world"/>-->
+  <arg name="world_name" value="$(find PF1)/worlds/Tsukubacharenge2021_pf1_xxx_startline.world"/>
     <!-- <arg name="world_name" value="$(find PF1)/worlds/pf1_base.world"/> -->
     <arg name="debug" value="false" />
     <arg name="gui" value="true" />
