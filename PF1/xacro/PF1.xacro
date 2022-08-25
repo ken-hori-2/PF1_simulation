@@ -65,8 +65,9 @@
       <material name="base_link"/>
     </collision>
   </link>
-  <gazebo reference="body_link">
-    <material>Gazebo/White</material>
+  <gazebo reference="base_link">
+    <!-- <material>Gazebo/White</material> -->
+    <material>Gazebo/Grey</material>
   </gazebo>
 
 

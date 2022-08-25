@@ -18,12 +18,12 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
-  <arg name="model" default="$(find PF1)/xacro/PF1.xacro"/>
+  <arg name="model" default="$(find PF1)/xacro/PF1_stl.xacro"/>
   <!-- We resume the logic in empty_world.launch -->
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
   <arg name="world_name" value="$(find PF1)/worlds/Tsukubacharenge2021_pf1_xxx_startline.world"/>
-    <!-- <arg name="world_name" value="$(find PF1)/worlds/pf1_base.world"/> -->
+    <!-- <arg name="world_name" value="$(find PF1)/worlds/test.world"/> -->
     <arg name="debug" value="false" />
     <arg name="gui" value="true" />
     <arg name="paused" value="false"/>
